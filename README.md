@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://your-solution-url.com)
+- Solution URL: [URL here](https://github.com/TrEv0rRrRr/newsletter-sign-up-with-success-message-main)
 - Live Site URL: [URL here](https://your-live-site-url.com)
 
 ## My process
