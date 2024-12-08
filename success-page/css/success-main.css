@@ -1,0 +1,61 @@
+.container__main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container__main-div-h1-p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container__main-h1 {
+  font-size: 2.85rem;
+  font-weight: var(--w-700);
+}
+
+.container__main-p {
+  margin-bottom: 15px;
+  text-wrap: balance;
+  font-size: 0.85rem;
+}
+
+.main__p-span-email {
+  font-weight: var(--w-700);
+  line-height: 30px;
+}
+
+.container__main-button {
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--Dark-Slate-Grey);
+  color: var(--White);
+  font-weight: var(--w-700);
+  cursor: pointer;
+}
+
+.container__main-button:hover,
+.container__main-button:focus {
+  background: linear-gradient(to right, #fe5278 1%, var(--Tomato));
+  box-shadow: 0 22px 45px -20px var(--Tomato);
+}
+
+@media screen and (max-width: 1061px) {
+  .container__main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  .container__main-h1 {
+    font-size: 2.5rem;
+  }
+
+  .container__main-p {
+    font-size: 0.9rem;
+    text-wrap: unset;
+  }
+}

@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--White);
+  border-radius: 30px;
+  max-width: 61rem;
+  min-height: 45rem;
+}
+
+@media screen and (max-width: 1061px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}

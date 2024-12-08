@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--White);
+  max-width: 28rem;
+  min-height: 25rem;
+  border-radius: 30px;
+  padding: 50px 60px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 22rem;
+    padding: 40px 30px;
+  }
+}
