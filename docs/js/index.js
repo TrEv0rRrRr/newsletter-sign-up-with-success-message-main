@@ -30,7 +30,7 @@ validator
     localStorage.setItem("userEmail", inputEmailValue);
     console.log("Form enviado con éxito!");
     setTimeout(() => {
-      window.location.href = "/docs/pages/success.html";
+      window.location.href = "/docs/pages/index.html";
     }, 800);
   })
   .onFail(() => {
