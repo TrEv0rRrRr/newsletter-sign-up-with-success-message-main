@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 dismissButton.addEventListener("click", () => {
-  window.location.href = "/main-page/index.html";
+  window.location.href = "../index.html";
 });
