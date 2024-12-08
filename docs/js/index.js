@@ -25,12 +25,12 @@ validator
       errorsContainer: "#email-error-msg",
     }
   )
-  .onSuccess((e) => {
+  .onSuccess(() => {
     const inputEmailValue = document.getElementById("email").value;
     localStorage.setItem("userEmail", inputEmailValue);
     console.log("Form enviado con éxito!");
     setTimeout(() => {
-      window.location.href = "../success.html";
+      window.location.href = "/docs/pages/success.html";
     }, 800);
   })
   .onFail(() => {
